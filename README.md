@@ -1,4 +1,4 @@
-# Sovereign Local LLM Hardware Guide (Mid-2026)
+# Local LLM Hardware Guide for Compute Autonomy (Mid-2026)
 ### Mac Studio M5 Ultra 512GB vs Thunderbolt 5 clusters vs NVIDIA vs AMD, for running frontier open models at home
 
 > A practical, sourced decision guide for running frontier open-weight models (DeepSeek, Qwen, GLM, Kimi, MiniMax, Mistral) locally and privately, written mid-June 2026. The core insight that decides everything: **memory bandwidth, not raw compute, is the bottleneck for token generation.**
@@ -122,7 +122,7 @@ Pourquoi le DGX Spark et l'AMD ne sont pas des machines frontier : tous deux son
 
 **Principe directeur :** le matériel le plus efficient est le moins cher qui atteint réellement l'objectif. Une boîte à 2000 dollars qui ne peut pas loger votre modèle cible n'est pas "efficiente", elle rate la cible.
 
-## 8. Économie de la souveraineté
+## 8. L'économie de l'autonomie de calcul
 
 Un poste mémoire élevée à 8000-12000 dollars équivaut à plusieurs dizaines de mois d'abonnements frontière. Sur la durée, c'est amortissable. Mais soyez honnête sur le **gap de qualité** : même les meilleurs modèles open en Q4 restent sous les modèles frontière fermés sur le raisonnement complexe et le code difficile, et la quantification dégrade encore.
 
@@ -254,7 +254,7 @@ Why the DGX Spark and AMD are not frontier machines: both are 128GB boxes at ~25
 
 **Guiding principle:** the most efficient hardware is the cheapest one that actually reaches the goal. A 2000-dollar box that cannot hold your target model is not "efficient", it misses the target.
 
-## 8. Sovereignty economics
+## 8. The economics of compute autonomy
 
 A high-memory workstation at 8000-12000 dollars equals several dozen months of frontier subscriptions. Over time it amortizes. But be honest about the **quality gap**: even the best open models at Q4 stay below closed frontier models on complex reasoning and hard code, and quantization degrades further.
 
